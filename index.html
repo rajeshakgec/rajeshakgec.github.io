@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Rajesh Kumar Verma | Technical Architect & Engineering Lead</title>
+<meta name="description" content="Technical Architect and Engineering Lead with 14+ years designing resilient enterprise systems on .NET Core, AWS and agentic GenAI.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#F3F5F8; --panel:#FFFFFF; --ink:#0F1B2D; --muted:#516078; --line:#CBD4E0; --accent:#1F5EFF; --accent-ink:#FFFFFF; --todo:#9A5B00;
+  --display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
+  --body:"IBM Plex Sans","Segoe UI",system-ui,sans-serif;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){--bg:#0D1520;--panel:#14202F;--ink:#E7EDF6;--muted:#9BAAC0;--line:#2A3A50;--accent:#7AA2FF;--accent-ink:#0D1520;--todo:#E5A445}
+}
+:root[data-theme="dark"]{--bg:#0D1520;--panel:#14202F;--ink:#E7EDF6;--muted:#9BAAC0;--line:#2A3A50;--accent:#7AA2FF;--accent-ink:#0D1520;--todo:#E5A445}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.0625rem/1.6 var(--body)}
+a{color:var(--accent)}
+a:focus-visible,button:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.wrap{max-width:68rem;margin:0 auto;padding:0 1.25rem}
+header.top{display:flex;justify-content:space-between;align-items:center;padding:1.25rem 0;gap:1rem;flex-wrap:wrap}
+header.top strong{font:700 1.1rem var(--display)}
+nav a{margin-left:1.25rem;color:var(--muted);text-decoration:none;font-weight:500}
+nav a:hover{color:var(--ink)}
+.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:3rem;align-items:center;padding:3rem 0 4rem}
+h1{font:700 clamp(2.4rem,6vw,4.2rem)/1.05 var(--display);margin:0 0 .75rem;letter-spacing:-.02em}
+.role{font:500 1.25rem var(--display);color:var(--accent);margin:0 0 1.25rem}
+.lead{max-width:34rem;color:var(--ink);margin:0 0 1rem}
+.now{max-width:34rem;color:var(--muted);margin:0 0 1.75rem}
+.cta{display:flex;gap:.75rem;flex-wrap:wrap}
+.btn{display:inline-block;padding:.7rem 1.2rem;border-radius:6px;font-weight:500;text-decoration:none;border:1.5px solid var(--accent)}
+.btn.primary{background:var(--accent);color:var(--accent-ink)}
+.btn.ghost{color:var(--accent)}
+.diagram{background:var(--panel);border:1.5px solid var(--line);border-radius:10px;padding:1rem}
+.diagram svg{display:block;width:100%;height:auto}
+.diagram .cap{margin:.5rem .25rem 0;color:var(--muted);font-size:.9rem}
+.layer{fill:var(--bg);stroke:var(--line);stroke-width:1.5}
+.layer.ai{fill:none;stroke:var(--accent);stroke-dasharray:5 4}
+.lt{font:500 14px var(--body);fill:var(--ink)}
+.ls{font:400 12px var(--body);fill:var(--muted)}
+.wire{stroke:var(--accent);stroke-width:1.5}
+section{padding:3rem 0;border-top:1.5px solid var(--line)}
+h2{font:700 1.75rem/1.2 var(--display);margin:0 0 1.5rem;letter-spacing:-.01em}
+.about{max-width:42rem}
+.stats{display:flex;gap:2.5rem;flex-wrap:wrap;margin-top:1.5rem}
+.stats div{font-size:.95rem;color:var(--muted)}
+.stats b{display:block;font:700 2rem var(--display);color:var(--ink)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:1.25rem}
+.skill h3{font:700 1.05rem var(--display);margin:0 0 .5rem}
+.skill p{margin:0;color:var(--muted)}
+.job{display:grid;grid-template-columns:11rem 1fr;gap:1.5rem;padding:1.25rem 0;border-bottom:1px solid var(--line)}
+.job:last-child{border-bottom:0}
+.job .when{color:var(--muted);font-size:.95rem}
+.job h3{margin:0 0 .35rem;font:700 1.1rem var(--display)}
+.job ul{margin:.5rem 0 0;padding-left:1.1rem}
+.win{background:var(--panel);border:1.5px solid var(--line);border-radius:8px;padding:1.1rem 1.25rem}
+.win h3{margin:0 0 .35rem;font:700 1.05rem var(--display)}
+.win p{margin:0;color:var(--muted)}
+.todo{color:var(--todo)}
+.contact a{display:inline-block;margin:0 1.25rem .5rem 0;font-weight:500}
+footer{padding:2rem 0 3rem;color:var(--muted);font-size:.9rem;border-top:1.5px solid var(--line)}
+@media (max-width:48rem){
+  .hero{grid-template-columns:1fr;gap:2rem;padding-top:1.5rem}
+  .job{grid-template-columns:1fr;gap:.25rem}
+  nav a{margin:0 1rem 0 0}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <strong>Rajesh Kumar Verma</strong>
+    <nav aria-label="Sections"><a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#achievements">Achievements</a><a href="#contact">Contact</a></nav>
+  </header>
+
+  <main>
+  <div class="hero">
+    <div>
+      <h1>Rajesh Kumar Verma</h1>
+      <p class="role">Technical Architect &amp; Engineering Lead</p>
+      <p class="lead">I design resilient enterprise systems on .NET Core and AWS, and lead cross-functional teams that take them from concept to production.</p>
+      <p class="now">Now building agentic GenAI systems with LangChain, LangGraph, LangSmith and Claude MCP.</p>
+      <div class="cta">
+        <a class="btn primary" href="#contact">Get in touch</a>
+        <a class="btn ghost" href="#experience">See my experience</a>
+      </div>
+    </div>
+    <figure class="diagram" style="margin:0">
+      <svg viewBox="0 0 360 330" role="img" aria-labelledby="dt dd">
+        <title id="dt">Layered system architecture</title>
+        <desc id="dd">From top to bottom: Angular client, .NET Core REST APIs, microservices on AWS, SQL Server and PostgreSQL data. An agent layer with LangGraph and Claude MCP connects to the services.</desc>
+        <rect class="layer ai" x="10" y="10" width="340" height="56" rx="8"/>
+        <text class="lt" x="26" y="34">Agent layer</text><text class="ls" x="26" y="53">LangChain, LangGraph, LangSmith, Claude MCP</text>
+        <line class="wire" x1="180" y1="66" x2="180" y2="90"/>
+        <rect class="layer" x="10" y="90" width="340" height="56" rx="8"/>
+        <text class="lt" x="26" y="114">Client</text><text class="ls" x="26" y="133">Angular</text>
+        <line class="wire" x1="180" y1="146" x2="180" y2="170"/>
+        <rect class="layer" x="10" y="170" width="340" height="56" rx="8"/>
+        <text class="lt" x="26" y="194">APIs</text><text class="ls" x="26" y="213">.NET Core, C#, REST</text>
+        <line class="wire" x1="180" y1="226" x2="180" y2="250"/>
+        <rect class="layer" x="10" y="250" width="164" height="56" rx="8"/>
+        <text class="lt" x="26" y="274">Services</text><text class="ls" x="26" y="293">Microservices, AWS</text>
+        <rect class="layer" x="186" y="250" width="164" height="56" rx="8"/>
+        <text class="lt" x="202" y="274">Data</text><text class="ls" x="202" y="293">SQL Server, PostgreSQL</text>
+      </svg>
+      <figcaption class="cap">The stack I architect, end to end.</figcaption>
+    </figure>
+  </div>
+
+  <section id="about">
+    <h2>About</h2>
+    <div class="about">
+      <p>I am a Technical Architect and Engineering Lead with 14+ years of experience building enterprise systems with .NET Core, C#, REST APIs, Angular and SQL or PostgreSQL. My foundation is AWS cloud architecture and microservices.</p>
+      <p>I lead cross-functional engineering teams from concept to production, and I am applying that discipline to agentic GenAI systems built with LangChain, LangGraph, LangSmith and Claude MCP.</p>
+    </div>
+    <div class="stats">
+      <div><b>14+</b>years in software</div>
+      <div><b>.NET</b>enterprise core</div>
+      <div><b>AWS</b>cloud architecture</div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="grid">
+      <div class="skill"><h3>Backend and APIs</h3><p>.NET Core, C#, REST API design, microservices</p></div>
+      <div class="skill"><h3>Frontend</h3><p>Angular</p></div>
+      <div class="skill"><h3>Data</h3><p>SQL Server, PostgreSQL</p></div>
+      <div class="skill"><h3>Cloud</h3><p>AWS architecture</p></div>
+      <div class="skill"><h3>Agentic GenAI</h3><p>LangChain, LangGraph, LangSmith, Claude MCP</p></div>
+      <div class="skill"><h3>Leadership</h3><p>Leading cross-functional teams from concept to production</p></div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <div class="job">
+      <div class="when todo">[Start year] to present</div>
+      <div><h3>Technical Architect &amp; Engineering Lead, <span class="todo">[Company]</span></h3>
+        <p>Designing resilient enterprise systems and leading cross-functional engineering teams.</p>
+        <ul class="todo"><li>[Add a project: what you built, your role, the result]</li><li>[Add a second project or responsibility]</li></ul>
+      </div>
+    </div>
+    <div class="job">
+      <div class="when todo">[Years]</div>
+      <div><h3 class="todo">[Previous role], [Company]</h3>
+        <ul class="todo"><li>[Key contribution]</li></ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="achievements">
+    <h2>Achievements</h2>
+    <div class="grid">
+      <div class="win"><h3>Concept to production</h3><p>Led cross-functional engineering teams through full delivery cycles.</p></div>
+      <div class="win"><h3 class="todo">[Measurable result]</h3><p class="todo">[For example: cut API response time by X%, or migrated N services to AWS]</p></div>
+      <div class="win"><h3 class="todo">[Certification or award]</h3><p class="todo">[Name, issuer, year]</p></div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Open to architect and engineering lead roles. The best way to reach me is email or LinkedIn.</p>
+    <a class="todo" href="mailto:your.email@example.com">your.email@example.com</a>
+    <a class="todo" href="https://www.linkedin.com/in/your-profile">LinkedIn</a>
+    <a href="https://github.com/rajeshakgec">GitHub</a>
+  </section>
+  </main>
+
+  <footer>&copy; Rajesh Kumar Verma</footer>
+</div>
+</body>
+</html>
